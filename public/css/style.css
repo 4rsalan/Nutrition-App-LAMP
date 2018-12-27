@@ -1,0 +1,68 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #E6E6E6;
+}
+
+.lightBg{
+    background-color: #fffff4;
+}
+
+.card-container{
+    color: black;
+    margin-top: 1%;
+    -webkit-box-shadow: 1px 0.5px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0.5px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 0.5px 8px 0px rgba(0,0,0,0.75);
+}
+
+
+.card-entry{
+    width: 95%;
+    height: 95%;
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.sky {
+    background: linear-gradient(90deg, #87bcde, #edddcd, #86cdee);
+    background-size: 600% 600%;
+
+    -webkit-animation: sky 21s ease infinite;
+    -moz-animation: sky 21s ease infinite;
+    animation: sky 21s ease infinite;
+}
+
+@-webkit-keyframes sky {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+@-moz-keyframes sky {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+@keyframes sky {
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+
+.modal {
+    display:block;
+}
